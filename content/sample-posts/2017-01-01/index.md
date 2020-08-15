@@ -1,13 +1,11 @@
 ---
-title: "Bold Mage"
+title: "Bienvenue sur mon blog"
 cover: "/images/hidden-beach-between-mountains-in-north-norway-picjumbo-com.jpg"
-author: "guinevere"
+author: "Ahmed"
 date: "2017-01-01"
 category: "tech"
 tags:
-    - programming
-    - stuff
-    - other
+    - presentation
 ---
 # Quanto et ius coniunctis urbes
 

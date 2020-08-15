@@ -28,16 +28,16 @@ class PostShare extends React.Component {
 
     return (
       <section className="share">
-        <h4>Share this post</h4>
+        <h4>Partagez cet article</h4>
         <div style={{ display: "flex" }}>
           <TwitterShareButton url={url} title={post.title}>
             {/* <a className="icon-twitter" style={{ fontSize: "1.4em" }} href="https://twitter.com/"> */}
-            <span className="hidden">Twitter</span>
+            <span className="icon-twitter"></span>
             {/* </a> */}
           </TwitterShareButton>
           <FacebookShareButton url={url} quote={post.title}>
             {/* <a className="icon-facebook" style={{ fontSize: "1.4em" }} href="https://facebook.com/"> */}
-            <span className="hidden">Facebook</span>
+            <span className="icon-facebook"></span>
             {/* </a> */}
           </FacebookShareButton>
           {/* <PinterestShareButton */}
