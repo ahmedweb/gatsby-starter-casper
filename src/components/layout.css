@@ -747,3 +747,15 @@ button {
         margin: 2rem auto;
     }
 }
+.nav li::before {
+    display: block;
+    float: right;
+    padding-right: 4%;
+    padding-left: 5px;
+    text-align: right;
+    font-size: 1.2rem;
+    vertical-align: bottom;
+    color: #b8b8b8;
+    content: none;
+    counter-increment: none;
+}

@@ -130,7 +130,7 @@ class PostTemplate extends React.Component {
 
                 <PostFooter>
                   <AuthorImage author={authorData} />
-                  <AuthorInfo prefix="/author" author={authorData} />
+                  <AuthorInfo prefix="#" author={authorData} />
                   <PostShare
                     postNode={postNode}
                     postPath={location.pathname}
